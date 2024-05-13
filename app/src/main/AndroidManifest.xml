@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logofbpreview"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tute03MadJune"
+        tools:targetApi="31">
+        <activity
+            android:name=".EditProfileView"
+             />
+        <activity
+            android:name=".MainProfileView"
+            android:exported="false" />
+        <activity
+            android:name=".MainSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".MainHomeForCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".MainLogin"
+            android:exported="false" />
+        <activity
+            android:name=".GetStarted2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Add GetStarted activity here -->
+        <activity
+            android:name=".GetStarted"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

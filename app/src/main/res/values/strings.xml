@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MADExam2</string>
+
+    <!-- Strings for MainActivity  -->
+    <string name="startBtn">Get Started</string>
+
+    <!-- Strings for GetStarted2Activity  -->
+    <string name="fix_buddy">Fix Buddy</string>
+    <string name="be_a_tasker">Be a Tasker</string>
+    <string name="be_a_customer">Be a Customer</string>
+
+    <!-- Strings for Main SignUp activity -->
+    <string name="Signup">Sign up</string>
+    <string name="Fullname_hint">Full Name</string>
+    <string name="create_password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="SignUp_button">Sign Up</string>
+
+    <!-- Strings for MainLogin activity -->
+    <string name="login">Log In</string>
+    <string name="username_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+
+    <!-- Strings for MainHomeForCustomer activity -->
+    <string name="customer_greeting">Hi Cory,</string>
+    <string name="location">Boralasgamuwa, Colombo 5</string>
+    <string name="help_with">I need help with</string>
+    <string name="search_hint">Try &quot;Garage cleaning&quot;</string>
+
+    <!-- Strings for Main Profile View -->
+    <string name="profile_view_title">Profile View</string>
+    <string name="view_profile_button">View Profile</string>
+
+    <!-- Strings for Edit Profile View -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="save_changes_button">Save Changes</string>
+
+</resources>
