@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MADExam2</string>
+    <string name="app_name">Fix Buddy</string>
 
     <!-- Strings for MainActivity  -->
     <string name="startBtn">Get Started</string>
